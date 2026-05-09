@@ -1,0 +1,55 @@
+* {
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: white;
+}
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+section {
+  padding: 60px 40px;
+}
+.skills-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.skills-container span {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
